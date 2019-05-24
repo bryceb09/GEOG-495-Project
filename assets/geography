@@ -1,0 +1,41 @@
+{
+"nodes": [
+{"id": "Physical", "group": 1},
+{"id": "Human", "group": 2},
+{"id": "Economic", "group": 5},
+{"id": "Population", "group": 5},
+{"id": "Medical", "group": 5},
+{"id": "Social", "group": 5},
+{"id": "Political", "group": 5},
+{"id": "Transportation", "group": 5},
+{"id": "Urban", "group": 5},
+{"id": "Geomorphology", "group": 6},
+{"id": "Climatology", "group": 6},
+{"id": "Oceanography", "group": 6},
+{"id": "Environmental", "group": 6},
+{"id": "Glaciology","group": 6},
+{"id": "Hydrology", "group": 6},
+{"id": "Cartography", "group": 3},
+{"id": "GIS", "group": 7},
+{"id": "Geography", "group": 4}
+],
+"links": [
+{"source": "Human", "target": "Economic", "value": 0},
+{"source": "Human", "target": "Population", "value": 0},
+{"source": "Human", "target": "Medical", "value": 0},
+{"source": "Human", "target": "Social", "value": 0},
+{"source": "Human", "target": "Political", "value": 0},
+{"source": "Human", "target": "Transportation", "value": 0},
+{"source": "Human", "target": "Urban", "value": 0},
+{"source": "Physical", "target": "Geomorphology", "value": 0},
+{"source": "Physical", "target": "Climatology", "value": 0},
+{"source": "Physical", "target": "Oceanography", "value": 0},
+{"source": "Physical", "target": "Environmental", "value": 0},
+{"source": "Physical", "target": "Glaciology", "value": 0},
+{"source": "Physical", "target": "Hydrology", "value": 0},
+{"source": "Geography", "target": "GIS", "value": 0},
+{"source": "Geography", "target": "Physical", "value": 0},
+{"source": "Geography", "target": "Human", "value": 0},
+{"source": "Geography", "target": "Cartography", "value": 0}
+]
+}
